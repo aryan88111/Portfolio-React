@@ -11,6 +11,14 @@ export const Projects = () => {
         code: ["https://github.com/aryan88111/Zomato-clone", "https://github.com/aryan88111/Zomato"]
       },
       icon: "fas fa-utensils"
+    },{
+      title: "Property Listing site",
+      description: "A modern property listing website built using the MERN stack. Features include user-friendly property searches, advanced filtering, secure authentication, and interactive property details.",
+      technologies: ["Node.js", "Express.js", "MongoDB", "REST API", "MVC"],
+      links: {
+        code: ["https://github.com/Mohd-Shadav/MAJOR_PROJECT_MAIN/tree/backend"]
+      },
+      icon: "fas fa-home"
     },
     {
       title: "URL Shortener",
@@ -20,6 +28,15 @@ export const Projects = () => {
         code: ["https://github.com/aryan88111/URL_Shortener"]
       },
       icon: "fas fa-link"
+    },
+    {
+      title: "GUI Calculator",
+      description: "A feature-rich calculator application with a graphical user interface built using Java Swing. Implements basic arithmetic operations with a clean, user-friendly design.",
+      technologies: ["Core Java", "Java Swing", "GUI Programming"],
+      links: {
+        code: ["https://github.com/aryan88111/Calculator-Java-"]
+      },
+      icon: "fas fa-calculator"
     },
     {
       title: "ATM Interface",
@@ -35,19 +52,11 @@ export const Projects = () => {
       description: "An interactive game built with Java Swing where players guess a randomly generated number",
       technologies: ["Java", "Swing", "GUI Programming"],
       links: {
-        code: ["https://github.com/aryan88111/Calculator-Java-"]
+        code: ["https://github.com/aryan88111/CBTCIP/blob/main/NumGuessingGame.java"]
       },
       icon: "fas fa-gamepad"
-    },
-    {
-      title: "Property Listing site",
-      description: "A modern property listing website built using the MERN stack. Features include user-friendly property searches, advanced filtering, secure authentication, and interactive property details.",
-      technologies: ["Node.js", "Express.js", "MongoDB", "REST API", "MVC"],
-      links: {
-        code: ["https://github.com/Mohd-Shadav/MAJOR_PROJECT_MAIN/tree/backend"]
-      },
-      icon: "fas fa-home"
     }
+    
   ];
 
   return (

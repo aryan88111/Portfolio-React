@@ -179,6 +179,45 @@
   animation: fadeInUp 1s ease forwards 0.9s;
 }
 
+.hero-buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  background: var(--accent-primary);
+  color: var(--text-primary);
+  border: 2px solid var(--accent-primary);
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: var(--accent-primary);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 2px solid var(--text-primary);
+}
+
+.btn-secondary:hover {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+}
+
 .primary-btn,
 .secondary-btn {
   padding: 1rem 2.5rem;
